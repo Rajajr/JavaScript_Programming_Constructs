@@ -1,5 +1,6 @@
-//UC-2 read a number and Display the week day
+//UC-3 Read a single digit number and write the number in word using case
 
+console.log('Enter the Number From 1 to 10');
 var readlineSync=require('readline-sync');
 var number=readlineSync.question('Enter the number: ');
 
@@ -7,36 +8,48 @@ switch(number)
 {
     
     case 1:
-       console.log('Sunday')
+       console.log('ONE')
         
     break;
 
     case 2:
-        console.log('Monday')
+        console.log('TWO')
     break;
 
     case 3:
-        console.log('Tuesday')
+        console.log('THREE')
     break;
 
     case 4:
-      console.log('Wednesday')
+      console.log('FOUR')
     break;
 
     case 5:
-      console.log("Thursday")
+      console.log("FIVE")
     break;
 
     case 6:
-        console.log("Friday")
+        console.log("SIX")
     break;
     
     case 7:
-        console.log("Saturday")
+        console.log("SEVEN")
+    break;
+
+    case 8:
+        console.log("EIGHT")
+    break;
+
+    case 9:
+        console.log("NINE")
+    break;
+
+    case 10:
+        console.log("TEN")
     break;
     
     default:
-        console.log('Enter the Number correct');
+        console.log('Number is incorrect');
     break;
     
 
